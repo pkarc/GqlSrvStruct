@@ -1,2 +1,2 @@
 # GqlSrvStruct
-Nodejs GraphQL servered over Express
+Nodejs GraphQL Express based
