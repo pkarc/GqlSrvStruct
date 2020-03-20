@@ -1,0 +1,32 @@
+/**
+ * Created by pkarc on 24/06/17.
+ */
+
+const STRING = require('./string');
+const NUMBER = require('./number');
+
+module.exports = Object.freeze({
+
+  USER_TYPES: [
+    STRING.USER_TYPE_ADMIN,
+    STRING.USER_TYPE_CUSTOMER,
+  ],
+
+  USER_STATUS: [
+    STRING.USER_STATUS_ACTIVE,
+    STRING.USER_STATUS_INACTIVE,
+  ],
+
+  QUESTION_STATUS: [
+    STRING.QUESTION_STATUS_ACTIVE,
+    STRING.QUESTION_STATUS_INACTIVE
+  ],
+
+  QUESTION_TYPES: [
+    STRING.QUESTION_TYPE_OPEN,
+    STRING.QUESTION_TYPE_DATE,
+    STRING.QUESTION_TYPE_SINGLE,
+    STRING.QUESTION_TYPE_MULTIPLE
+  ]
+
+});
