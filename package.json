@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/pkarc/GqlSrvStruct#readme",
   "dependencies": {
-    "apollo-server-express": "^2.9.16",
+    "apollo-server-express": "^2.14.2",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-jwt": "^5.3.1",
